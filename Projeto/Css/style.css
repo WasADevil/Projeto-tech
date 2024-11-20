@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family: helvetica;
+}
+/*Cabeçalho*/
+
+header{
+    background-color: #181818;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+    border-bottom: 4px solid #1d1c1c;
+}
+
+/*Produtos*/
+
+.container {
+    background-color: #222222;
+    color: #fff;
+    min-height: 60hv;
+    padding: 50px;
+}
+
+.products-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+}
+h3 {
+    font-size: smaller;
+}
+
+.product-image {
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid #222222;
+    border-radius: 7px;
+}
+
+#img-1 {
+    background-image: url(../img/rtx\ 4060.jpg)
+}
+
+
+#img-2 {
+    background-image: url(../img/r5\ 5500.jpg)
+}
+
+#img-3 {
+    background-image: url(../img/gabinete.jpg)
+}
+
+#img-4 {
+    background-image: url(../img/ssd\ 512.jpg)
+}
+
+#img-5 {
+    background-image: url(../img/memoria\ ram\ 8.jpg)
+}
+
+#img-6 {
+    background-image: url(../img/fonte.jpg)
+}
+
+#img-7 {
+    background-image: url(../img/monitor.jpg)
+}
+
+#img-8 {
+    background-image: url(../img/teclado.jpg)
+}
+#img-9 {
+    background-image: url(../img/mouse.jpg)
+}
+h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #cf1717;
+    padding-top: 10px;
+}
+.card p {
+    margin-bottom: 10px;
+}
+.bold {
+    font-weight: bold;
+}
+.btn {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #ca282860;
+    width: 100%;
+    color: #fff;
+    padding: 12px 7px;
+    display: block;
+    border-radius: 5px;
+    transition: .5s;
+}
+.btn:hover {
+    background-color: #70070760;
+}
+.bold-red {
+    font-weight: bold;
+    color: #cf1717;
+}
+.parcela {
+font-size: small;
+padding-bottom: 10px;
+}
+
+
+/*Rodapé*/
+
+footer {
+    background-color: #000000;
+    border-top: #161616;
+    color: #fff;
+    padding: 60px;
+    text-align: center;
+}
